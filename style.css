@@ -1,0 +1,60 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; }
+
+h1 { color: #333; margin-bottom: 20px; }
+
+#todo-container { background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); margin-bottom: 20px; width: 100%; max-width: 500px; }
+
+#task { width: 100%; padding: 10px; margin-bottom: 10px; box-sizing: border-box; border: 1px solid #ddd; border-radius: 3px; outline: none; }
+
+button { padding: 10px 20px; background-color: #6699cc; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s; }
+
+button:hover { background-color: #5a8dbc; }
+
+#task-list { list-style-type: none; padding: 0; }
+
+li { background-color: #f4f4f4; padding: 10px; margin-bottom: 5px; border-radius: 5px; position: relative; }
+
+li:hover { background-color: #e8e8e8; }
+
+li.done { background-color: #dff0d8; color: #3c763d; }
+
+li.done:hover { background-color: #d0e9c6; }
+
+li .delete-task { position:absolute }
+
+
+h1 { color: #333; margin-bottom: 20px; }
+
+#todo-container { background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); margin-bottom: 20px; width: 100%; max-width: 500px; }
+
+#task { width: 100%; padding: 10px; margin-bottom: 10px; box-sizing: border-box; border: 1px solid #ddd; border-radius: 3px; outline: none; }
+
+button { padding: 10px 20px; background-color: #6699cc; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s; }
+
+button:hover { background-color: #5a8dbc; }
+
+#task-list { list-style-type: none; padding: 0; }
+
+li { background-color: #f4f4f4; padding: 10px; margin-bottom: 5px; border-radius: 5px; position: relative; }
+
+li:hover { background-color: #e8e8e8; }
+
+li.done { background-color: #dff0d8; color: #3c763d; }
+
+li.done:hover { background-color: #d0e9c6; }
+
+
+
+button.button {
+    padding: 10px 20px;
+    background-color: #ff6666; /* Change this to the color you want */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.button:hover {
+    background-color: #ff3333; /* Change this to the color you want on hover */
+}
